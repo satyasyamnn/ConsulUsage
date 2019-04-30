@@ -48,5 +48,5 @@ http://<<public address>>:8500/ui/dc1/services/consul
 
 ## references 
 
-https://www.digitalocean.com/community/tutorials/how-to-configure-consul-in-a-production-environment-on-ubuntu-14-04
-https://jee-appy.blogspot.com/2015/09/consul-setup-tutorial.html
+https://www.digitalocean.com/community/tutorials/how-to-configure-consul-in-a-production-environment-on-ubuntu-14-04  
+https://jee-appy.blogspot.com/2015/09/consul-setup-tutorial.html  
