@@ -12,10 +12,10 @@ sudo apt install unzip
 
 ### To install consul on linux machine 
 
-cd /usr/local/bin
-sudo wget https://releases.hashicorp.com/consul/1.4.4/consul_1.4.4_linux_amd64.zip
-sudo unzip *.zip
-sudo rm *.zip
+cd /usr/local/bin  
+sudo wget https://releases.hashicorp.com/consul/1.4.4/consul_1.4.4_linux_amd64.zip  
+sudo unzip *.zip  
+sudo rm *.zip  
 
 ### To check Consul run 
 
@@ -35,7 +35,7 @@ sudo consul join 10.0.0.5
 
 ## To create a client, follow the above steps and then create 
 
-sudo consul agent -data-dir /tmp/consul -client <<private address>> -ui -join <<server private address>>
+sudo consul agent -data-dir /tmp/consul -client <<private address>> -ui -join <<server private address>>  
 
 Important point to note is, use private address of client to join to the server
 
